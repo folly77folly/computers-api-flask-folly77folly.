@@ -1,4 +1,7 @@
 computers/
+.vscode/
+config.py
+*.json
 
 *.pyc
 __pycache__/

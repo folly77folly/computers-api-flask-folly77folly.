@@ -12,8 +12,8 @@ class User(db.Model):
     def __repr__(self):
         return '<User %r>' % self.username
 
-class Company(db.Model):
-    __tablename__ = 'company'
+class Computer(db.Model):
+    __tablename__ = 'computer'
     id = db.Column(db.Integer, primary_key = True)
     name = db.Column(db.String(200))
     price = db.Column(db.Integer, nullable=False)
